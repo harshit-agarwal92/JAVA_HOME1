@@ -7,9 +7,9 @@ public static void main(String[] args) {
 	Scanner sc=new Scanner(System.in);
 	System.out.println("Enter Number");
 	int n=sc.nextInt();
-	int l=0,a=0,mean=0;
-	l=n%10;
-	a=l;
+	int last=0,a=0,mean=0;
+	last=n%10;
+	a=last;
 	n=n/10;
 	while(n>9)
 	{
@@ -17,8 +17,8 @@ public static void main(String[] args) {
 		mean+=rem;
 		n=n/10;
 	}
-	int f=n;
-	if(f+l==mean)
+	int first=n;
+	if(first+last==mean)
 	{
 		System.out.println("Xylum Number");
 	}

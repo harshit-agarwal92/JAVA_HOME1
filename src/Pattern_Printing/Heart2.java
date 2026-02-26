@@ -1,4 +1,4 @@
-package UTIL;
+package Pattern_Printing;
 
 import java.util.*;
 
@@ -24,7 +24,7 @@ public class Heart2 {
 				System.out.print(" ");
 			}
 
-			// Right Stars
+			
 			for (int j = 1; j <= i; j++) {
 				System.out.print("*");
 			}

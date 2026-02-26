@@ -1,4 +1,4 @@
-package UTIL;
+package Pattern_Printing;
 
 import java.util.*;
 
